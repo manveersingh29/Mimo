@@ -185,7 +185,7 @@
 		<child link="left_wheel"/>
 		<parent link="robot_body"/>
 		<axis xyz="0 0 1" rpy="0 0 0"/>
-		<limit effort="10000" velocity="1000"/>
+		<limit effort="10000" velocity="2000"/>
 		<dynamics damping="1.0" friction="1.0"/>
 	</joint>
 
@@ -194,7 +194,7 @@
 		<child link="right_wheel"/>
 		<parent link="robot_body"/>
 		<axis xyz="0 0 1" rpy="0 0 0"/>
-		<limit effort="10000" velocity="1000"/>
+		<limit effort="10000" velocity="2000"/>
 		<dynamics damping="1.0" friction="1.0"/>
 	</joint>
 
@@ -202,6 +202,8 @@
     <parent link="robot_body"/>
     <child link="caster_wheel"/>
     <origin xyz="0.24 0 0" rpy="0 0 0"/>
+	<limit effort="10000" velocity="2000"/>
+	<dynamics damping="1.0" friction="1.0"/>
 	</joint>
 
 	<joint name="hokuyo_joint" type="fixed">

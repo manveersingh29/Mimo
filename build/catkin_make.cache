@@ -1,2 +1,2 @@
-robot
+robot:slam_gmapping/gmapping:slam_gmapping/slam_gmapping
 -DCATKIN_DEVEL_PREFIX=/home/manveer/Mimo/devel -DCMAKE_INSTALL_PREFIX=/home/manveer/Mimo/install -G Unix Makefiles
