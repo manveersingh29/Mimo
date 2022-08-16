@@ -44,6 +44,9 @@
   <node pkg="rviz" type="rviz" name="rviz" respawn="false" args="-d $(find robot)/config/rviz_config.rviz"/>
 
   <!--Gmapping-->
-  <!--include file="$(find robot)/launch/gmapping.launch"-->
+  <!--<include file="$(find robot)/launch/gmapping.launch"/>-->
+
+  <!--Move_base-->
+  <include file="$(find robot)/launch/move_base.launch"/>
 
 </launch>

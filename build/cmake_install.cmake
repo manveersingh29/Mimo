@@ -132,8 +132,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/manveer/Mimo/build/gtest/cmake_install.cmake")
   include("/home/manveer/Mimo/build/slam_gmapping/slam_gmapping/cmake_install.cmake")
-  include("/home/manveer/Mimo/build/robot/cmake_install.cmake")
   include("/home/manveer/Mimo/build/slam_gmapping/gmapping/cmake_install.cmake")
+  include("/home/manveer/Mimo/build/robot/cmake_install.cmake")
 
 endif()
 

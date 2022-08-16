@@ -7,4 +7,9 @@
 # new environment variables
 
 # modified environment variables
+export CMAKE_PREFIX_PATH="/home/manveer/Mimo/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/manveer/Mimo/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/manveer/Mimo/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/manveer/Mimo/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/manveer/Mimo/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/manveer/Mimo/src:$ROS_PACKAGE_PATH"
